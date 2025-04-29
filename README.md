@@ -1,33 +1,31 @@
-# 🛡️ PowerShell STIG Remediation Scripts
+🛡️ PowerShell STIG Remediation Scripts
 
-[![PowerShell](https://img.shields.io/badge/Language-PowerShell-blue?logo=powershell)](https://docs.microsoft.com/en-us/powershell/)
-[![Windows Security](https://img.shields.io/badge/Windows-Security-blue?logo=windows)](https://learn.microsoft.com/en-us/windows/security/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![STIG Compliance](https://img.shields.io/badge/STIG-Compliance-critical)](https://public.cyber.mil/stigs/)
 
-**Automate Windows hardening and DISA STIG compliance with modular PowerShell scripts.**
+Automating Windows hardening and DISA STIG compliance through modular PowerShell scripts.
 
 📋 About This Project
-This repository contains PowerShell scripts designed to automate DISA STIG (Security Technical Implementation Guide) compliance tasks for Windows environments.
+Welcome to my collection of PowerShell scripts designed to automate DISA STIG (Security Technical Implementation Guide) compliance tasks for Windows environments.
 
 Each script:
 
 Focuses on one specific STIG requirement.
 
-Is idempotent (safe to run multiple times).
+Is idempotent (safe to run multiple times without breaking anything).
 
-Includes a clear .SYNOPSIS, .DESCRIPTION, and .NOTES block.
+Includes a clear .SYNOPSIS, .DESCRIPTION, and .NOTES block for easy understanding.
 
-Is built for simplicity, clarity, and modularity.
+Is written with simplicity, clarity, and modularity in mind.
 
 🔥 Project Purpose
-The goal of this repository is to:
+The main goals of this project are to:
 
 Provide easy-to-use scripts for cybersecurity students, blue teamers, system administrators, and security engineers.
 
-Enable faster achievement of STIG compliance for Windows systems.
+Help achieve faster STIG compliance for Windows systems.
 
-Build and demonstrate my expertise in system hardening using PowerShell automation.
+Build and showcase my experience in Windows security hardening and compliance automation.
+
+
 
 🛠️ How to Use
 ⚡ Note: Always run PowerShell as Administrator to apply system-level changes.
@@ -69,4 +67,4 @@ See the LICENSE file for more details.
 
 👤 Author
 Shane Wilson
-GitHub | LinkedIn
+
