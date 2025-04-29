@@ -37,7 +37,7 @@ The goal of this project is to:
 ### Steps:
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/shanerwilson/PowerShell-STIG-Scripts.git
+   git clone https://github.com/shanerwilson/PowerShell-STIG-Remediation-Scripts/tree/main/STIGS
    ```
 
 2. **Navigate** to the script that matches the STIG ID you are working on.  
@@ -87,4 +87,4 @@ See the [LICENSE](LICENSE) file for full details.
 
 **Shane Wilson**  
 - [GitHub](https://github.com/shanerwilson)
-- [LinkedIn](https://www.linkedin.com/in/your-linkedin/)
+- [LinkedIn](https://www.linkedin.com/in/shane-wilson/)
