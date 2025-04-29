@@ -1,4 +1,4 @@
-# 🛡️ PowerShell STIG Remediation Scripts by Shane Wilson
+# 🛡️ PowerShell STIG Remediation ScriptS
 
 [![PowerShell](https://img.shields.io/badge/Language-PowerShell-blue?logo=powershell)](https://docs.microsoft.com/en-us/powershell/)
 [![Windows Security](https://img.shields.io/badge/Windows-Security-blue?logo=windows)](https://learn.microsoft.com/en-us/windows/security/)
