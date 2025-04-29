@@ -4,8 +4,10 @@
 [![Windows Security](https://img.shields.io/badge/Windows-Security-blue?logo=windows)](https://learn.microsoft.com/en-us/windows/security/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![STIG Compliance](https://img.shields.io/badge/STIG-Compliance-critical)](https://public.cyber.mil/stigs/)
+[![Quick Start](https://img.shields.io/badge/Quick%20Start-Clone%20Instructions-blueviolet?style=for-the-badge)](#-how-to-clone-this-repository)
 
 **Automating Windows hardening and DISA STIG compliance through modular PowerShell scripts.**
+
 
 ---
 
