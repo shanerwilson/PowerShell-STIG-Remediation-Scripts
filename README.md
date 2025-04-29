@@ -1,7 +1,11 @@
-🛡️ PowerShell STIG Remediation Scripts
+# 🛡️ PowerShell STIG Remediation Scripts
 
+[![PowerShell](https://img.shields.io/badge/Language-PowerShell-blue?logo=powershell)](https://docs.microsoft.com/en-us/powershell/)
+[![Windows Security](https://img.shields.io/badge/Windows-Security-blue?logo=windows)](https://learn.microsoft.com/en-us/windows/security/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![STIG Compliance](https://img.shields.io/badge/STIG-Compliance-critical)](https://public.cyber.mil/stigs/)
 
-Automating Windows hardening and DISA STIG compliance with modular PowerShell scripts.
+**Automate Windows hardening and DISA STIG compliance with modular PowerShell scripts.**
 
 📋 About This Project
 This repository contains PowerShell scripts designed to automate DISA STIG (Security Technical Implementation Guide) compliance tasks for Windows environments.
