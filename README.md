@@ -1,28 +1,20 @@
-# 🛡️ PowerShell STIG Remediation Scripts
-
-[![PowerShell](https://img.shields.io/badge/Language-PowerShell-blue?logo=powershell)](https://docs.microsoft.com/en-us/powershell/)
-[![Windows Security](https://img.shields.io/badge/Windows-Security-blue?logo=windows)](https://learn.microsoft.com/en-us/windows/security/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![STIG Compliance](https://img.shields.io/badge/STIG-Compliance-critical)](https://public.cyber.mil/stigs/)
-
-**Automate Windows hardening and DISA STIG compliance with modular PowerShell scripts.**
+🛡️ PowerShell STIG Remediation Scripts
 
 
+Automating Windows hardening and DISA STIG compliance with modular PowerShell scripts.
 
-
-Welcome to my collection of PowerShell scripts designed to automate DISA STIG (Security Technical Implementation Guide) compliance tasks for Windows environments.
-
-These scripts are intended to help speed up the remediation process and standardize security hardening based on STIG guidelines.
+📋 About This Project
+This repository contains PowerShell scripts designed to automate DISA STIG (Security Technical Implementation Guide) compliance tasks for Windows environments.
 
 Each script:
 
 Focuses on one specific STIG requirement.
 
-Is written to be idempotent (safe to run multiple times).
+Is idempotent (safe to run multiple times).
 
-Contains a clear .SYNOPSIS, .DESCRIPTION, and .NOTES block.
+Includes a clear .SYNOPSIS, .DESCRIPTION, and .NOTES block.
 
-Is written with simplicity, clarity, and modularity in mind.
+Is built for simplicity, clarity, and modularity.
 
 🔥 Project Purpose
 The goal of this repository is to:
@@ -31,17 +23,18 @@ Provide easy-to-use scripts for cybersecurity students, blue teamers, system adm
 
 Enable faster achievement of STIG compliance for Windows systems.
 
-Build and share my experience in hardening systems using PowerShell automation.
+Build and demonstrate my expertise in system hardening using PowerShell automation.
 
-🛠️ Usage
-Note: Always run PowerShell as Administrator to apply system-level changes.
+🛠️ How to Use
+⚡ Note: Always run PowerShell as Administrator to apply system-level changes.
 
 Steps:
 Clone this repository:
 
-#git clone https://github.com/shanerwilson/PowerShell-STIG-Scripts.git
+#git clone https://github.com/shanerwilson/PowerShell-STIG-Remediation-Scripts.git
 
 Navigate to the script that corresponds to the STIG ID you are working on.
+Example:
 
 #WN10-AU-000500_Set-ApplicationLogMaxSize.ps1
 
@@ -49,8 +42,9 @@ Run the script in PowerShell:
 
 #.\WN10-AU-000500_Set-ApplicationLogMaxSize.ps1
 
-Review the output to confirm remediation was applied successfully.
+Review the output to confirm the remediation was applied successfully.
 
+📂 Script Structure
 Each script:
 
 Is named after the STIG ID it remediates.
@@ -58,16 +52,17 @@ Is named after the STIG ID it remediates.
 Targets a single control for clarity and modularity.
 
 ❗ Disclaimer
-Disclaimer:
 These scripts are provided "as-is" without any warranty, expressed or implied.
 They are intended for educational and lab purposes only.
-Always test thoroughly in a controlled/lab environment before using them in any production or live system.
+
+Always test thoroughly in a controlled/lab environment before deploying to production.
 Use at your own risk.
 I am not responsible for any damage, data loss, or security misconfigurations caused by the use or misuse of these scripts.
 
 📜 License
 This project is licensed under the MIT License.
+See the LICENSE file for more details.
 
 👤 Author
 Shane Wilson
-
+GitHub | LinkedIn
