@@ -1,5 +1,4 @@
-
-PowerShell STIG Remediation Scripts
+📜 PowerShell STIG Remediation Scripts by Shane Wilson
 
 Welcome to my collection of PowerShell scripts designed to automate DISA STIG (Security Technical Implementation Guide) compliance tasks for Windows environments.
 
