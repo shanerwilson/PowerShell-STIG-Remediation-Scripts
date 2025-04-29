@@ -30,28 +30,28 @@ The goal of this project is to:
 
 ---
 
-## 🛠️ How to Use
+## 🚀 How to Clone This Repository
 
-> ⚡ **Important:** Always **run PowerShell as Administrator** to apply system-level changes.
+> ⚡ **Important:** Run PowerShell as Administrator before executing any scripts.
 
-### Steps:
-1. **Clone the repository:**
+1. Open your terminal or PowerShell.
+2. Clone the full repository:
    ```bash
    git clone https://github.com/shanerwilson/PowerShell-STIG-Remediation-Scripts.git
    ```
-
-2. **Navigate** to the script that matches the STIG ID you are working on.  
-   Example:
-   ```plaintext
-   WN10-AU-000500_Set-ApplicationLogMaxSize.ps1
+3. Navigate to the STIG scripts folder:
+   ```bash
+   cd PowerShell-STIG-Remediation-Scripts/STIGS
    ```
+4. Select and run the script you need.
 
-3. **Run the script:**
-   ```powershell
-   .\WN10-AU-000500_Set-ApplicationLogMaxSize.ps1
-   ```
+---
 
-4. **Verify** the output to confirm the remediation was applied successfully.
+### Example:
+```powershell
+.\WN10-AU-000500_Set-ApplicationLogMaxSize.ps1
+```
+✅ You can safely run scripts individually depending on the STIG control you are working on.
 
 ---
 
@@ -60,6 +60,12 @@ The goal of this project is to:
 Each script:
 - Is named after the **STIG ID** it addresses.
 - **Targets only one control** for easier testing, validation, and maintenance.
+
+---
+
+## 🛡️ Windows Hardening & STIG Remediation Projects
+
+**[PowerShell STIG Remediation Scripts Repository](https://github.com/shanerwilson/PowerShell-STIG-Remediation-Scripts)**
 
 ---
 
@@ -88,3 +94,7 @@ See the [LICENSE](LICENSE) file for full details.
 **Shane Wilson**  
 - [GitHub](https://github.com/shanerwilson)
 - [LinkedIn](https://www.linkedin.com/in/shane-wilson/)
+
+---
+
+
