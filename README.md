@@ -1,4 +1,11 @@
-#Automating Windows security hardening with PowerShell — built for STIG compliance and blue team ops.#
+# 🛡️ PowerShell STIG Remediation Scripts by Shane Wilson
+
+[![PowerShell](https://img.shields.io/badge/Language-PowerShell-blue?logo=powershell)](https://docs.microsoft.com/en-us/powershell/)
+[![Windows Security](https://img.shields.io/badge/Windows-Security-blue?logo=windows)](https://learn.microsoft.com/en-us/windows/security/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![STIG Compliance](https://img.shields.io/badge/STIG-Compliance-critical)](https://public.cyber.mil/stigs/)
+
+**Automate Windows hardening and DISA STIG compliance with modular PowerShell scripts.**
 
 
 Welcome to my collection of PowerShell scripts designed to automate DISA STIG (Security Technical Implementation Guide) compliance tasks for Windows environments.
