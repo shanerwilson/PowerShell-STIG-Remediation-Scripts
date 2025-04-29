@@ -1,70 +1,90 @@
-🛡️ PowerShell STIG Remediation Scripts
+# 🛡️ PowerShell STIG Remediation Scripts
 
+[![PowerShell](https://img.shields.io/badge/Language-PowerShell-blue?logo=powershell)](https://docs.microsoft.com/en-us/powershell/)
+[![Windows Security](https://img.shields.io/badge/Windows-Security-blue?logo=windows)](https://learn.microsoft.com/en-us/windows/security/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![STIG Compliance](https://img.shields.io/badge/STIG-Compliance-critical)](https://public.cyber.mil/stigs/)
 
-Automating Windows hardening and DISA STIG compliance through modular PowerShell scripts.
+**Automating Windows hardening and DISA STIG compliance through modular PowerShell scripts.**
 
-📋 About This Project
-Welcome to my collection of PowerShell scripts designed to automate DISA STIG (Security Technical Implementation Guide) compliance tasks for Windows environments.
+---
+
+## 📋 About This Project
+
+Welcome to my collection of PowerShell scripts designed to automate **DISA STIG** (Security Technical Implementation Guide) compliance tasks for Windows environments.
 
 Each script:
+- Focuses on **one specific STIG requirement**.
+- Is **idempotent** (safe to run multiple times).
+- Includes a clear `.SYNOPSIS`, `.DESCRIPTION`, and `.NOTES` block.
+- Is written with **simplicity**, **clarity**, and **modularity** in mind.
 
-Focuses on one specific STIG requirement.
+---
 
-Is idempotent (safe to run multiple times without breaking anything).
+## 🔥 Project Purpose
 
-Includes a clear .SYNOPSIS, .DESCRIPTION, and .NOTES block for easy understanding.
+The goal of this project is to:
+- Provide **easy-to-use** scripts for cybersecurity students, blue teamers, system administrators, and security engineers.
+- Help achieve **faster STIG compliance** for Windows systems.
+- **Build and showcase** my experience in Windows security hardening using PowerShell automation.
 
-Is written with simplicity, clarity, and modularity in mind.
+---
 
-🔥 Project Purpose
-The main goals of this project are to:
+## 🛠️ How to Use
 
-Provide easy-to-use scripts for cybersecurity students, blue teamers, system administrators, and security engineers.
+> ⚡ **Important:** Always **run PowerShell as Administrator** to apply system-level changes.
 
-Help achieve faster STIG compliance for Windows systems.
+### Steps:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/shanerwilson/PowerShell-STIG-Scripts.git
+   ```
 
-Build and showcase my experience in Windows security hardening and compliance automation.
+2. **Navigate** to the script that matches the STIG ID you are working on.  
+   Example:
+   ```plaintext
+   WN10-AU-000500_Set-ApplicationLogMaxSize.ps1
+   ```
 
+3. **Run the script:**
+   ```powershell
+   .\WN10-AU-000500_Set-ApplicationLogMaxSize.ps1
+   ```
 
+4. **Verify** the output to confirm the remediation was applied successfully.
 
-🛠️ How to Use
-⚡ Note: Always run PowerShell as Administrator to apply system-level changes.
+---
 
-Steps:
-Clone this repository:
+## 📂 Script Structure
 
-#git clone https://github.com/shanerwilson/PowerShell-STIG-Remediation-Scripts.git
-
-Navigate to the script that corresponds to the STIG ID you are working on.
-Example:
-
-#WN10-AU-000500_Set-ApplicationLogMaxSize.ps1
-
-Run the script in PowerShell:
-
-#.\WN10-AU-000500_Set-ApplicationLogMaxSize.ps1
-
-Review the output to confirm the remediation was applied successfully.
-
-📂 Script Structure
 Each script:
+- Is named after the **STIG ID** it addresses.
+- **Targets only one control** for easier testing, validation, and maintenance.
 
-Is named after the STIG ID it remediates.
+---
 
-Targets a single control for clarity and modularity.
+## ❗ Disclaimer
 
-❗ Disclaimer
-These scripts are provided "as-is" without any warranty, expressed or implied.
-They are intended for educational and lab purposes only.
+These scripts are provided **"as-is"** without any warranty, expressed or implied.  
+They are intended for **educational and lab purposes only**.
 
-Always test thoroughly in a controlled/lab environment before deploying to production.
-Use at your own risk.
-I am not responsible for any damage, data loss, or security misconfigurations caused by the use or misuse of these scripts.
+Please:
+- **Test thoroughly** in a **controlled/lab environment** before deploying to production.
+- **Use at your own risk**.
 
-📜 License
-This project is licensed under the MIT License.
-See the LICENSE file for more details.
+I am **not responsible** for any damage, system failures, data loss, or security issues caused by the use or misuse of these scripts.
 
-👤 Author
-Shane Wilson
+---
 
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for full details.
+
+---
+
+## 👤 Author
+
+**Shane Wilson**  
+- [GitHub](https://github.com/shanerwilson)
+- [LinkedIn](https://www.linkedin.com/in/your-linkedin/)
