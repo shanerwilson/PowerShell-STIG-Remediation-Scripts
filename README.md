@@ -8,6 +8,8 @@
 **Automate Windows hardening and DISA STIG compliance with modular PowerShell scripts.**
 
 
+
+
 Welcome to my collection of PowerShell scripts designed to automate DISA STIG (Security Technical Implementation Guide) compliance tasks for Windows environments.
 
 These scripts are intended to help speed up the remediation process and standardize security hardening based on STIG guidelines.
